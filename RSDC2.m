@@ -1,4 +1,4 @@
-function [D1, D2, P, lrQ, flag]= RSDC(Q1,Q2,n)
+function [D1, D2, P, lrQ, flag]= RSDC2(Q1,Q2,n)
 flag = 0; %flag=1 if Q1 and Q2 are already SDC
 Q12   = Q1\Q2;
 [V, D] = eig(Q12);
