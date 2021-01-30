@@ -1,1 +1,4 @@
-# RSDCQCQP
+A set of quadratic forms is simultaneously diagonalizable via congruence (SDC) if there exists a basis under which each of the quadratic forms is diagonal. This property appears naturally when analyzing quadratically constrained quadratic programs (QCQPs) and has important implications in this context.This paper extends the reach of the SDC property by studying two new related but weaker notions of simultaneous diagonalizability. Specifically, we say that a set of quadratic forms is almost SDC (ASDC) if it is the limit of SDC sets and $d$-restricted SDC ($d$-RSDC) if it is the restriction of an SDC set in up to $d$-many additional dimensions. Our main contributions are a complete characterization of the ASDC pairs and the nonsingular ASDC triples, as well as a sufficient condition for the $1$-RSDC property for pairs of quadratic forms.
+Surprisingly, we show that \emph{every} singular pair is ASDC and that \emph{almost every} pair is $1$-RSDC.
+
+We accompany our theoretical results with preliminary numerical experiments applying the $1$-RSDC property to QCQPs with a single quadratic constraint. 
